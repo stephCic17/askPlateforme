@@ -14,7 +14,6 @@ $(function(){
 		x.scrollTop = x.scrollHeight;
 		var tchatInput = document.getElementById('tchatInput');
 		tchatInput.focus();
-
 		$.post(url, {action:"addMessage", message:message}, function(data){
 
 		},"json");

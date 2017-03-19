@@ -214,9 +214,6 @@ session_start();
 							<i class="icon -archive"></i>
 							QUESTIONS DU LIVE
 						</h6>
-					<div id="affQ">
-						<script>getQuestion();</script>
-					</div>
 					<?php if ($_SESSION["id"]){?>
 						<div class="message -with-intent -line-primary" id="questionForm">
 							<i class="icon -bubble-heart"></i>
@@ -232,6 +229,10 @@ session_start();
 						</div><?php } else echo "<button class='button -primary -large open-login-modal'> Connectez-vous pour poser votre question</button>";
 							  ?>
 				</div>
+
+					<div id="affQ">
+						<script>getQuestion();</script>
+					</div>
 			</div>
 			<!-- QUESTION WRAPPER -->
 			<?php echo get_footer(); ?>
