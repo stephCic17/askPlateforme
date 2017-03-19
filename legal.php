@@ -168,16 +168,18 @@ session_start();
 	<!-- END OF NAVIGATION -->
 	<div id="content">
     <div class="sub-nav" id="legalHeader">
+      <div id="main-background"></div>
       <div class="container">
         <h1>Mentions légales</h1>
       </div>
+      <div class="shape"></div>
     </div>
     <div class="container">
   	  <div class="articleLegalNb">
     	  <h3>Article 1</h3>
     	  <p class="articleLegal"></p>
     	</div>
-  </div>
+    </div>
   <?php echo get_footer();?>
 </div>
 
