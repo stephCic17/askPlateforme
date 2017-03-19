@@ -25,6 +25,16 @@ session_start();
 	<script type="text/javascript" src="ressources/jquery.js"></script>
 	<script type="text/javascript" src="navBar.js"></script>
 
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <link rel="stylesheet" href="css/content.css" type="text/css" />
+  <link rel="stylesheet" href="css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="css/navbar.css" type="text/css" />
+  <link rel="stylesheet" href="css/footer.css" type="text/css" />
+  <link rel="stylesheet" href="css/question.css" type="text/css" />
+  <link rel="stylesheet" href="css/chat.css" type="text/css" />
+  <link rel="stylesheet" href="css/videoWrapper.css" type="text/css" />
+  <link rel="stylesheet" href="css/sub-nav.css" type="text/css" />
+
 	</head>
 	<body>
 
@@ -157,7 +167,7 @@ session_start();
 	</nav>
 	<!-- END OF NAVIGATION -->
 	<div id="content">
-    <div class="sub-header" id="legalHeader">
+    <div class="sub-nav" id="legalHeader">
       <div class="container">
         <h1>Mentions légales</h1>
       </div>
@@ -172,11 +182,3 @@ session_start();
 </div>
 
 </body>
-<link rel="stylesheet" href="css/style.css" type="text/css" />
-<link rel="stylesheet" href="css/content.css" type="text/css" />
-<link rel="stylesheet" href="css/modal.css" type="text/css" />
-<link rel="stylesheet" href="css/navbar.css" type="text/css" />
-<link rel="stylesheet" href="css/footer.css" type="text/css" />
-<link rel="stylesheet" href="css/question.css" type="text/css" />
-<link rel="stylesheet" href="css/chat.css" type="text/css" />
-<link rel="stylesheet" href="css/videoWrapper.css" type="text/css" />

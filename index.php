@@ -32,7 +32,7 @@ session_start();
 	<link rel="stylesheet" href="css/question.css" type="text/css" />
 	<link rel="stylesheet" href="css/chat.css" type="text/css" />
 	<link rel="stylesheet" href="css/videoWrapper.css" type="text/css" />
-
+	<link rel="stylesheet" href="css/sub-nav.css" type="text/css" />
 
 </head>
 <body>
@@ -69,7 +69,7 @@ session_start();
 		</div>
 	</div>
 	<!-- END OF POPUP LOGIN -->
-	
+
 	<!-- POPUP SUBSCRIBE -->
 	<div id="subscribeModal" class="modal login -subscribe">
 		<div class="overlay close-modal"></div>
@@ -115,7 +115,7 @@ session_start();
 		</div>
 	</div>
 	<!-- POPUP SUBSCRIBE -->
-	
+
 	<!-- POPUP SENDMAIL ? -->
 	<div id="lostPasswordModal" class="modal login">
 		<div class="overlay close-modal"></div>
@@ -181,7 +181,7 @@ session_start();
 					<?php } ?>
 				</div>
 				<!-- END OF VIDEO WRAPPER -->
-				
+
 				<!-- CHAT WRAPPER -->
 				<div class="chat-wrapper" id="tchatF">
 					<div class="chat" id="tchat">
@@ -201,7 +201,7 @@ session_start();
 					<?php } else echo "<button class='button -primary -large open-login-modal'> Connectez-vous pour acceder au tchat</button>"; ?>
 				</div>
 				<!-- END OF CHAT WRAPPER -->
-				
+
 			<!-- QUESTION WRAPPER -->
 				<div class="container">
 					<div class="question-wrapper" id="questionF">
@@ -238,5 +238,5 @@ session_start();
 						  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
  ga('create', 'UA-93939676-1', 'auto');
- ga('send', 'pageview'); 
+ ga('send', 'pageview');
 </script>
