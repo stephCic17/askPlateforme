@@ -24,12 +24,6 @@ if ($_POST["action"] == "addUpvote") {
 			if (!$res[0]) {
 				$d["test"] = insert_upvote($_SESSION["id"],$id);
 				$d["erreur"] = "ok";
-				$question = get_all_question(1);
-				$i = 0;
-				while ($question[$i]["id"])
-				{
-					$d["div"] .= "<div class=\"question\" id=n".$question[$i]["id"]."><h4>".$question[$i]["question"]." <a class=\"upvote\" onclick=\"upvote(".$question[$i]["id"].")\"><i class=\"icon -chevron-up\"></i></a></h4><p> votes ".$question[$i++]["upvote"]."</p></div>";
-				}
 			}
 		}
 		else {
