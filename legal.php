@@ -157,16 +157,18 @@ session_start();
 	</nav>
 	<!-- END OF NAVIGATION -->
 	<div id="content">
-		
-	  <div id="legalHeader">
-	  <h1>Mentions légales</h1>
-	</div>
-	  <div class="articleLegalNb">
-	  <h3>Article 1</h3>
-	  <p class="articleLegal"></p>
-	</div>
-
-<?php echo get_footer();?>
+    <div class="sub-header" id="legalHeader">
+      <div class="container">
+        <h1>Mentions légales</h1>
+      </div>
+    </div>
+    <div class="container">
+  	  <div class="articleLegalNb">
+    	  <h3>Article 1</h3>
+    	  <p class="articleLegal"></p>
+    	</div>
+  </div>
+  <?php echo get_footer();?>
 </div>
 
 </body>
