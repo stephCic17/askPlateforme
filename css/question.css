@@ -1,0 +1,84 @@
+
+.question-wrapper {
+	margin-top: 15px;
+	width: 100%;
+}
+
+.question {
+	position: relative;
+	border-bottom: 1px solid rgb(245,245,245);
+}
+
+.question .circle {
+	position: absolute;
+	top:0;
+	left:0;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background-color: rgb(240, 240, 240);
+}
+
+.question h4 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.question i {
+	padding: 10px 0 0 4px;
+	text-align: center;
+	font-size: 1.9rem;
+	display: block;
+}
+
+.question p {
+	margin-left: 51px;
+	margin-top: -15px;
+	opacity: 0.5;
+}
+
+.question .upvote {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background-color: rgb(240, 240, 240);
+}
+
+.question .upvote i {
+	padding: 10px 0 0 8px;
+}
+
+.question-button { flex-shrink: 6; }
+
+.message>i {
+	position: absolute!important;
+	font-size: 6rem!important;
+	top: 23px!important;
+	left: 26px!important;
+	opacity:0.5!important;
+}
+.message h5 {
+	margin-left:90px!important;
+}
+.message form{
+	margin-left:90px!important;
+}
+.message form input{
+	width: 60%;
+}
+@media screen and (max-width:640px){
+	.question {
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+	.question-wrapper h6 {
+		margin-left: 5px;
+	}
+	.question h4{
+		width: 80%
+	}
+}
