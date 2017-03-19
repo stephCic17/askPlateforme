@@ -12,8 +12,13 @@ $(function(){
 		var message = $("#tchatForm form input").val();
 		var x = document.getElementById('tchat');
 		x.scrollTop = x.scrollHeight;
+		var tchatInput = document.getElementById('tchatInput');
+		tchatInput.focus();
+
 		$.post(url, {action:"addMessage", message:message}, function(data){
+
 		},"json");
+
 	});
 	$("#questionForm form").submit(function(){
 		var question = $("#questionForm form input").val();

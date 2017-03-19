@@ -191,7 +191,12 @@ session_start();
 						<div id="tchatForm">
 							<form method="post" action="#">
 								<div class="merge -horizontal -large">
-									<input class="tchatArea" type=”text" placeholder="Ton texte..." />
+									<input id="tchatInput" class="tchatArea" type=”text" placeholder="Ton texte..." />
+									<script>
+									 document.getElementById('tchatInput').focus();
+									 var scroll =  document.getElementById('tchat');
+									 scroll.scrollTop = scrollHeight;
+</script>
 									<button class="button -primary -only-icon">
 										<i class="icon -paper-plane"></i>
 									</button>
@@ -219,7 +224,7 @@ session_start();
 							<form method="post" action="#">
 								<div class="merge -horizontal">
 									<input name="question" type=”text" placeholder="Ton texte..." />
-									<button type="submit" class="button -primary -only-icon question-button">
+	<button type="submit" class="button -primary -only-icon question-button">
 										Entrer
 									</button>
 								</div>
