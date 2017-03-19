@@ -85,17 +85,17 @@ session_start();
 							<form method="post" action="user/create_account.php">
 								<fieldset class="-large -has-icon ">
 									<i class="icon -user"></i>
-									<input name="pseudo" type="name" placeholder="Pseudo" onblur="test_valid_pseudo(this)" />
+									<input name="mail" type="name" placeholder="Email" onblur="test_valid_mail(this)"/>
 								</fieldset>
 								<fieldset class="-large -has-icon ">
 									<i class="icon -user"></i>
-									<input name="mail" type="name" placeholder="Email" onblur="test_valid_mail(this)"/>
+									<input name="pseudo" type="name" placeholder="Pseudo" onblur="test_valid_pseudo(this)" />
 								</fieldset>
 								<fieldset class="-large -has-icon">
 									<i class="icon -lock"></i>
 									<input name="password" type="password" placeholder="Mot de passe" />
 								</fieldset>
-								<button id="btn-subscribe" class="button -large -primary">
+								<button id="btn-subscribe" class="button -large -primary -disabled">
 									<span>S'inscrire</span>
 								</button>
 							</form>
