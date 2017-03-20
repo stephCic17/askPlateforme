@@ -52,8 +52,8 @@ session_start();
 					<figure id="noActiveLive" class="filter -blur -example">
 						<figcaption>
 							<div class="egg"></div>
-							<h6 class="title">Pas de live en cours</h6>
-							<span class="desc">Retrouve-nous le 23 mars a 21h ! Sur le theme de l'accouchement</span>
+							<h6 class="title">Retrouvez-nous le 23 mars à 21 heures</h6>
+							<span class="desc">Sur le thème de l'accouchement</span>
 				      </figcaption>
 				    </figure>
 					<?php } ?>
@@ -81,7 +81,7 @@ session_start();
 								</div>
 							</form>
 						</div>
-					<?php } else echo "<button class='button -primary -large open-login-modal'> Connectez-vous pour acceder au tchat</button>"; ?>
+					<?php } else echo "<button class='button -primary -large open-login-modal'> Connectez-vous pour accéder au tchat</button>"; ?>
 				</div>
 				<!-- END OF CHAT WRAPPER -->
 

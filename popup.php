@@ -26,7 +26,7 @@ function get_loginPopup(){
 				 </button>
 			 </form>
 			 <footer>
-				 <a class='open-subscribe-modal'>S\'inscrire</a> -
+				 <a class='open-subscribe-modal'>S'inscrire</a> -
 				 <a class='open-lostpassword-modal'>Mot de passe perdu ?</a>
 			 </footer>
 		 </div>
@@ -69,8 +69,8 @@ return "
 					</div>
 					<div class='wrapper why'>
 						<img class='image' src='assets/imgs/svg/egg.svg'></img>
-						<label>Pourquoi créer un compte</label>
-						<p>Pendant les emissions de Ciconia, avoir un compte vous permet de réagir en temps réel et de poser des questions à l'avance.</p>
+						<label>Pourquoi créer un compte ?</label>
+						<p>Pendant nos émissions, avoir un compte vous permet de réagir en temps réel et de poser des questions à l'avance.</p>
 					</div>
 				</div>
 				<footer>

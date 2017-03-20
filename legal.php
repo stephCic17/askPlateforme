@@ -45,7 +45,7 @@ session_start();
     <div class="sub-nav" id="legalHeader">
       <div id="main-background"></div>
       <div class="container">
-          <h1>Mentions légales</h1>
+          <h1>À propos</h1>
 		  <p class="articleLegal">
 			  Vous êtes actuellement connecté au site Internet ciconia.io (dénommé ci-après “le Site”). L’ensemble des données et des informations présentes sur ce Site sont consultables gratuitement par le public. Elles sont la propriété intellectuelle exclusive de la société Ciconia SAS. L’internaute ayant accès au Site s’engage à respecter les conditions d’utilisation telles que décrites dans la présente rubrique “Mentions Légales”.<br />
 	<b> L’utilisation de ce Site est à vocation uniquement informative et ne se substitue pas à une consultation médicale délivrée par un professionnel de santé.</b>

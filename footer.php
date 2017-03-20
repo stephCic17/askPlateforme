@@ -27,7 +27,7 @@ function get_footer(){
 				<div class="three col">
 					<div id="mobile"><h6>Légal</h6></div>
 					<ul>
-						<li><div id="mobile"><a href="legal.php">Mentions-légales</a></div></li>
+						<li><div id="mobile"><a href="legal.php">Mentions légales</a></div></li>
 					</ul>
 				</div>
 			</div>
